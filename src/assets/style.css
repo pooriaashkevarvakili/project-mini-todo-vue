@@ -1,0 +1,24 @@
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+@tailwind screens;
+.ant-modal-header{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+.ant-form-vertical .ant-form-item-label > label, .ant-col-24.ant-form-item-label > label, .ant-col-xl-24.ant-form-item-label > label {
+    margin: 0;
+    display: flex;
+    justify-content:flex-end;
+    
+}
+.ant-input{
+    text-align: right;  
+}
+.ant-select-selection-item{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
